@@ -1,0 +1,25 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:linear-gradient(90deg,rgb(146, 189, 108,0.1),rgb(146, 189, 108,1));
+}
+.register input{
+    width: 45%;
+    margin: 20px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background:#ccc;
+}
+.register input[type=submit]{
+    width: 20%;
+    border: 0;
+    background-color: chocolate;
+    border-radius: 30px;
+}
+.register span{
+    color: red;
+}

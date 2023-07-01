@@ -1,0 +1,61 @@
+
+.contact .main {
+    position: relative;
+    margin-top: 150px !important;
+}
+
+.contact .main img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .main .hotline {
+    width: 30%;
+    position: absolute;
+   left: 60%;
+    top: 20%;
+}
+.contact .main .hotline input{
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid  #aabc44;
+    height: 40px;
+    padding-left: 30px;
+    outline: none;
+}
+.contact .main .hotline h1{
+    text-transform: uppercase;
+}
+.contact .main .hotline input[type=submit]{
+    width: 30%;
+    background-color: #aabc44;
+    color: white;
+    padding: 0;
+}
+
+.contact .main .hotline span{
+    color: red;
+}
+@media screen and (max-width: 820px) {
+   
+    .contact  .main .hotline h1{
+        font-size: 15pt;
+    }
+    .contact .main .hotline {
+        top: 10%;
+    }
+    .contact .main .hotline input[type=submit]{
+        width: 50px;
+    }
+    
+}
+@media screen and (max-width: 720px){
+    .contact .main .hotline input{
+        margin: 3px 0;
+        height: 25px;
+    }
+    .contact .main .hotline h1{
+        font-size: 7pt;
+    }
+
+}

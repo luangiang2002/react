@@ -1,0 +1,27 @@
+.introduction{
+    margin-top: 150px !important;
+}
+.introduction .introduction-banner img{
+    width: 100%;
+    object-fit: cover;
+}
+.introduction .introduction-title{
+    background-image: url(../asset/Pictures/gioi-thieu/banner02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+.introduction .introduction-title .title{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2;
+} 
+.introduction .introduction-title .title img{
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+.introduction .introduction-title .title h1{
+    text-align: center;
+    margin-top: 50px;
+}

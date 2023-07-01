@@ -1,0 +1,133 @@
+.product-details {
+    margin-top: 120px !important;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.product-details .product{
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+.product-details .item{
+    display: flex;
+    justify-content: center;
+   
+}
+.product-details .item img{
+    width: 400px;
+    object-fit: cover;
+}
+.product-details .item .title{
+    margin-left: 50px;
+}
+.product-details .item .title i{
+        color: green;
+        padding: 1px;
+}
+.product-details .item .title .icon span{
+    margin-left: 10px;
+    font-size:20px;
+}
+.product-details .item .title input{
+    width: 100px;
+    border: 0;
+    background-color: #aabc44;
+}
+.product-details .item .title .dola{
+    font-size: 20px;
+    
+}
+.product-details .item .title .dola select{
+    margin-left: 10px;
+}
+
+
+/* //h1  */
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+/* end h1  */
+.product-details  .product-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.product-details .product-list .card i{
+    color:  #aabc44;
+ }
+ .product-details  .product-list .card .icon{
+     position: absolute;
+    top: 0;
+ }
+ .product-details .product-list .card  h4{
+     position: absolute;
+     top: 0;
+     right: 0;
+     background-color: #d4f59b;
+     width: 60px;
+ }
+ .product-details .product-list .card h4{
+     margin-top: 0;
+     margin-right: 0;
+ 
+ }
+ 
+.product-details .product-list .card img{
+    width: 290px;
+    margin-top: 30px;
+}
+.product-details .product-list .card{
+    width: 300px;
+    height: 400px;
+    /* margin-right: 80px; */
+    text-align: center;
+    position: relative;
+    border: none;
+}
+.product-details .product-list .card .card-text2{
+    font-family: MULI-BOLD;
+}
+.product-details  .product-list .card .card-text2 select{
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+.product-details  .product-list .card:last-child{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .product-details .product-list .card img{
+        width: 190px;
+    }
+    .product-details  .product-list .card{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .product-details .item{
+       flex-direction: column-reverse;
+       align-items: center;
+    }
+    .product-details .item img{
+        width: 100%;
+        
+    }
+    .product-details .product-list {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       justify-items: center;
+    }
+}
+@media  screen and (max-width: 620px)  {
+    .product-details .product-list {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+}

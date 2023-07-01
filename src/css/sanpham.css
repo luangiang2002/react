@@ -1,0 +1,183 @@
+.product-intro {
+    margin-top: 150px !important;
+}
+.product-intro .banner img{
+    width: 100%;
+    object-fit: cover;
+}
+.product-intro  .banner{
+    position: relative;
+}
+.product-intro  .banner h1{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.product-intro .main{
+    width: 80%;
+    margin: 0 auto;
+}
+.product-intro .main .main-title {
+    text-align: left;
+}
+.product-intro .main .main-title p{
+    opacity: 0.75;
+}
+.product-intro  .main .product .categore .input{
+    position: relative;
+}
+.product-intro  .product{
+    display: flex;
+}
+.product-intro  .product .categore{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -50px;
+}
+.product-intro  .product .product-list{
+    flex: 6;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: end;
+}
+
+/* muti  */
+.product .multi-range-slider .bar {
+    width: 150px;
+}
+.product .multi-range-slider .labels {
+    display: none;
+}
+.product .multi-range-slider{
+    border: none;
+    padding: 0;
+    box-shadow: none;
+
+}
+.product .multi-range-slider .ruler .ruler-rule{
+    display: none;
+}
+.product .multi-range-slider .bar-right {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: none;
+    box-shadow: inset 0px 0px 5px gray;
+}
+
+.product .multi-range-slider .bar-left {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: none;
+    box-shadow: inset 0px 0px 5px gray;
+}
+.product .multi-range-slider .thumb::before {
+    content: '';
+    /* background-color: inherit; */
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: solid 1px gray;
+    box-shadow: none;
+    border-radius: 10%;
+    z-index: 1;
+     margin: -5px 0;
+    cursor: pointer;
+}
+.product .multi-range-slider .bar-inner-left{
+    background: white;
+}
+.product .multi-range-slider .bar-inner-right{
+    background: white;
+}
+/* end muti  */
+.product-intro  .product .product-list .card i{
+   color:  #aabc44;
+}
+.product-intro  .product .product-list .card .icon{
+    position: absolute;
+   top: 0;
+}
+.product-intro .product .product-list .card  h4{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #d4f59b;
+    width: 60px;
+}
+.product-intro  .product .product-list .card h4{
+    margin-top: 0;
+    margin-right: 0;
+
+}
+.product-intro .sort{
+   display: flex;
+   align-items: end;
+   flex-direction: row-reverse;
+}
+.product-intro .sort select{
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    opacity: 0.6;
+}
+.product-intro  .product .product-list .card img{
+    width: 290px;
+    margin-top: 30px;
+}
+.product-intro  .product .product-list .card{
+    width: 300px;
+    height: 400px;
+    /* margin-right: 80px; */
+    text-align: center;
+    position: relative;
+    border: none;
+}
+.product-intro  .product .product-list .card .card-text2{
+    font-family: MULI-BOLD;
+}
+.product-intro  .product .product-list .card .card-text2 select{
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+.product-intro  .product .product-list .card:last-child{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .product-intro .product .product-list .card img{
+        width: 190px;
+        height: 100%;
+    }
+    .product-intro .product .product-list .card{
+        width: 200px;
+    }
+    .product-intro  .product .categore{
+        flex: 2;
+    }
+    .product-intro  .product .product-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .product-intro .product .product-list {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product-intro  .banner h1{
+        top: 20%;
+    }
+} 
+@media  screen and (max-width: 620px)  {
+    .product-intro .product .product-list {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .product-intro .product .product-list .card {
+        width: 180px;
+    }
+    .product-intro  .banner h1{
+        top: 10%;
+        left: 30%;
+    }
+}

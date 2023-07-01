@@ -1,0 +1,58 @@
+.news  .main{
+    width: 80%;
+    margin: 0 auto;
+}
+.news{
+    margin-top: 150px !important;
+}
+.news  .product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    margin: 30px 0;
+    gap: 30px;
+}
+.news .main .product .card {
+    border: none;
+}
+.news .main .product .card .cart-text{
+    color:  #aabc44;
+}
+.news .main .product .card .cart-text2{
+    font-size: 9pt;
+}
+.news .main h1{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.page{
+   display: flex;
+   justify-content: center;
+}
+.page ul a{
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+   
+}
+.page-item:last-child .page-link{
+    border-radius: 0;
+}
+.page-item:first-child .page-link{
+    border-radius: 0;
+}
+@media  screen and (max-width:1200px){
+    .news  .product{
+        
+        grid-template-columns: repeat(2,300px);
+        justify-content: center;
+    }
+}
+@media  screen and (max-width:600px){
+    .news  .product{
+        
+        grid-template-columns: repeat(1,300px);
+       justify-content: center;
+    }
+}

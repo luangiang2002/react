@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: SVN-Athena;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@font-face {
+    font-family: SVN-Athena;
+        src: url(../src/asset/fonts/SVN-Athena_0.ttf);
+    }
+
+    @font-face {
+        font-family: MULI-BOLD;
+        src: url(../src/asset/fonts/MULI-BOLD.TTF);
+    }
